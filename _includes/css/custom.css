@@ -1,0 +1,16 @@
+#contact-social-buttons {
+    margin-left: 42%;
+    position: absolute;
+    bottom: -120px;
+
+}
+
+@media screen and (max-width: 480px) {
+    #contact-social-buttons {
+        margin-left: 22%;
+    }
+
+    .sectiondivider h5 {
+        font-size:11px;
+    }
+}
