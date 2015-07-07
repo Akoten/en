@@ -46,7 +46,7 @@
             {% endfor %}
         </ul>
     </nav>
-    <a style="margin-top: -5em; position:absolute; z-index:1;height: 1em;width: 100%;top: 120px;color: blue;text-align: center;font-size: 0.8em;" href="http://akoten.com">Nederlandse versie</a>
+    <a style="margin-top: -4em; position:absolute; z-index:1;height: 1em;width: 100%;top: 120px;color: blue;text-align: center;font-size: 0.8em;" href="http://akoten.com">Nederlandse versie</a>
     {% for page in site.posts reversed %}
     {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
     <div id="{{id}}" class="section p-{{id}}">
